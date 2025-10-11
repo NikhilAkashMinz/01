@@ -12,7 +12,8 @@ else:
     print("Invalid input, please try again.")
     exit()
 
-pepperoni = input("What do you want pepperoni? Y or N:  ")
+pepperoni = input("What do you want pepperoni? Y or N:")
+
 if pepperoni == "Y" or pepperoni == "y" :
     total += 2
 elif pepperoni == "N" or pepperoni == "n":
