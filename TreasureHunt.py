@@ -13,7 +13,7 @@ if lr == 'Left' or lr == 'left' or lr == 'LEFT':
         exit(0)
     elif wg == 'wait' or wg == 'Wait' or wg == 'WAIT':
         print("You Reached the island ")
-        tre = input("There are three doors in the island 'Red','Blue' or 'Green':  ")
+        tre = input("There are three doors in the island 'Red','Blue' or 'Green':  ").lower()
         if tre == 'Red':
             print("You are burnt by fire and You are 'GAY'.")
             exit(0)
