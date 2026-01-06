@@ -5,11 +5,11 @@ print("YOUR MISSION IS TO FIND TREASURE")
 
 print("Your at a cross road. Where do you want to go?")
 
-lr = input("Type Left or Right : ")
+lr = input("Type Left or Right : ").lower()
 if lr == 'Left' or lr == 'left' or lr == 'LEFT':
     wg = input('You have come to a lake .There is a island in middle you can "wait" or "swim" :')
     if wg == 'swim' or wg == 'Swim' or wg == 'SWIM':
-        print("You are attacked by the Andaconda \ You are Dead")
+        print("You are attacked by the Andaconda You are Dead")
         exit(0)
     elif wg == 'wait' or wg == 'Wait' or wg == 'WAIT':
         print("You Reached the island ")
@@ -20,7 +20,7 @@ if lr == 'Left' or lr == 'left' or lr == 'LEFT':
         elif tre == 'Blue':
             print("You are attacked by Gay rapist. And you are GAY.")
             exit(0)
-        elif tre == 'Green':
+        elif tre == 'green':
             print("You Found the treasure and You are a GAY treasure hunter.")
             print("Game Over")
             exit(0)
